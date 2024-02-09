@@ -1,4 +1,4 @@
-pipeline {
+ullypipeline {
     agent any
     stages {
         stage('Build') {
@@ -23,7 +23,7 @@ pipeline {
         }
         stage('complete') {
             steps {
-                echo 'Its is Done'
+                echo 'Its is Done Wonderfully'
             }
         }
     }
